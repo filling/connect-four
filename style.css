@@ -1,0 +1,66 @@
+header section {
+    margin-bottom: 20px;
+}
+
+header section div {
+    display: inline-block;
+}
+
+button {
+    padding:20px 100px;
+    border-radius: 20px;
+    font-size:20px;
+    outline:none;
+}
+
+button:not([disabled='disabled']):hover {
+    background-color: #ddd;
+}
+
+button.active {
+    background-color: #ddd;
+}
+
+.grid.disabled {
+    opacity: .4;
+}
+
+.grid {
+    background-color: gray;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.grid div {
+    border-radius: 75px;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#results span {
+    font-size: 28px;
+}
+
+.red {
+    background-color: red;
+}
+
+.red-text {
+    color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}

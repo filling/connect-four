@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Connect Four</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="app.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <section>
+                    <h1>9DT</h1>
+                    <div class="hidden">
+                        <p id="results">Results: <span></span></p>
+                        <button id="new-game">Click to start a new game</button>
+                    </div>
+                </section>
+                <input type="hidden" id="moves" value="" />
+                <section id="turn-order">
+                    <button name="first-player" id="player-first">I go first</button>
+                    <button name="first-player" id="ai-first">AI goes first</button>
+                </section>
+            </header>
+            <section class="grid disabled">
+                <div data-col="0" data-row="3"></div>
+                <div data-col="0" data-row="2"></div>
+                <div data-col="0" data-row="1"></div>
+                <div data-col="0" data-row="0"></div>
+                <div data-col="1" data-row="3"></div>
+                <div data-col="1" data-row="2"></div>
+                <div data-col="1" data-row="1"></div>
+                <div data-col="1" data-row="0"></div>
+                <div data-col="2" data-row="3"></div>
+                <div data-col="2" data-row="2"></div>
+                <div data-col="2" data-row="1"></div>
+                <div data-col="2" data-row="0"></div>
+                <div data-col="3" data-row="3"></div>
+                <div data-col="3" data-row="2"></div>
+                <div data-col="3" data-row="1"></div>
+                <div data-col="3" data-row="0"></div>
+            </section>
+        </div>
+    </body>
+</html>
